@@ -13,6 +13,7 @@
 		D3EED0C126B165E500EF6AF3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3EED0BF26B165E500EF6AF3 /* Main.storyboard */; };
 		D3EED0C326B165E700EF6AF3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D3EED0C226B165E700EF6AF3 /* Assets.xcassets */; };
 		D3EED0C626B165E700EF6AF3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3EED0C426B165E700EF6AF3 /* LaunchScreen.storyboard */; };
+		D3EED0D126B1735F00EF6AF3 /* ring.wav in Resources */ = {isa = PBXBuildFile; fileRef = D3EED0D026B1735E00EF6AF3 /* ring.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		D3EED0C226B165E700EF6AF3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D3EED0C526B165E700EF6AF3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D3EED0C726B165E700EF6AF3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D3EED0D026B1735E00EF6AF3 /* ring.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = ring.wav; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 		D3EED0B826B165E500EF6AF3 /* Axie Win Counter */ = {
 			isa = PBXGroup;
 			children = (
+				D3EED0CF26B1735700EF6AF3 /* Sounds */,
 				D3EED0B926B165E500EF6AF3 /* AppDelegate.swift */,
 				D3EED0BB26B165E500EF6AF3 /* SceneDelegate.swift */,
 				D3EED0BD26B165E500EF6AF3 /* ViewController.swift */,
@@ -65,6 +68,14 @@
 				D3EED0C726B165E700EF6AF3 /* Info.plist */,
 			);
 			path = "Axie Win Counter";
+			sourceTree = "<group>";
+		};
+		D3EED0CF26B1735700EF6AF3 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				D3EED0D026B1735E00EF6AF3 /* ring.wav */,
+			);
+			path = Sounds;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -124,6 +135,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D3EED0D126B1735F00EF6AF3 /* ring.wav in Resources */,
 				D3EED0C626B165E700EF6AF3 /* LaunchScreen.storyboard in Resources */,
 				D3EED0C326B165E700EF6AF3 /* Assets.xcassets in Resources */,
 				D3EED0C126B165E500EF6AF3 /* Main.storyboard in Resources */,
